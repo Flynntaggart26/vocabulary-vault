@@ -26,6 +26,22 @@ const STARTER_WORDS = [
   { word: "amenable", meaning: "uyumlu, razı olmaya/uzlaşmaya açık", example: "She was amenable to changing the meeting time." },
   { word: "tractable", meaning: "kolay işlenen, uysal, söz dinler", example: "The problem was tractable once they broke it into smaller steps." },
   { word: "recalcitrant", meaning: "dikbaşlı, inatçı, otoriteye direnen", example: "The recalcitrant student refused to follow the rules." },
+  { word: "myopic", meaning: "dar görüşlü, ileriyi göremeyen", example: "The company's myopic focus on short-term profits led to long-term failure." },
+  { word: "credulous", meaning: "kolay inanan, saf, her söylenene kanan", example: "The credulous old man believed every promise the salesman made." },
+  { word: "perspicacious", meaning: "keskin anlayışlı, ileri görüşlü, kavrayışı güçlü", example: "Her perspicacious analysis of the market impressed the investors." },
+  { word: "obtuse", meaning: "anlayışı kıt, duyarsız, ince ayrımları fark edemeyen", example: "He was too obtuse to notice that she was upset." },
+  { word: "inconspicuous", meaning: "göze çarpmayan, dikkat çekmeyen", example: "The spy chose an inconspicuous gray car to avoid attention." },
+  { word: "salient", meaning: "en belirgin, göze çarpan, önemli", example: "The speaker summarized the salient points of the report." },
+  { word: "peripheral", meaning: "çevresel, ikincil öneme sahip, kenarda kalan", example: "That issue is peripheral to the main topic of our discussion." },
+  { word: "trivial", meaning: "önemsiz, sıradan, küçük", example: "Don't waste time on trivial details." },
+  { word: "amplify", meaning: "güçlendirmek, büyütmek, artırmak", example: "The microphone will amplify your voice to the whole room." },
+  { word: "augment", meaning: "artırmak, çoğaltmak, takviye etmek", example: "She took a second job to augment her income." },
+  { word: "intensify", meaning: "yoğunlaştırmak, şiddetlendirmek", example: "The storm began to intensify as the night went on." },
+  { word: "attenuate", meaning: "zayıflatmak, azaltmak, şiddetini düşürmek", example: "The thick walls attenuate the noise from the street." },
+  { word: "disparage", meaning: "küçümsemek, kötülemek, değerini düşürmek", example: "He was criticized for disparaging his colleagues' work." },
+  { word: "venerate", meaning: "derin saygı duymak, el üstünde tutmak", example: "Many cultures venerate their ancestors." },
+  { word: "deride", meaning: "alay etmek, küçümseyerek gülmek", example: "The critics derided his attempt at painting." },
+  { word: "vilify", meaning: "iftira atmak, karalamak, kötülemek", example: "The media tried to vilify the politician with false rumors." },
 ];
 
 // DOM elemanları
