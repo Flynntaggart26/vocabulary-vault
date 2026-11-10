@@ -41,7 +41,17 @@ git remote add origin https://github.com/KULLANICI_ADINIZ/vocabulary-vault.git
 git push -u origin main
 ```
 
-Sonra `https://github.com/KULLANICI_ADINIZ/vocabulary-vault` adresinden erişebilirsin.
+Sonra `https://github.com/Flynntaggart26/vocabulary-vault` adresinden erişebilirsin.
+
+## 🌐 Canlı Web Sitesi (GitHub Pages)
+
+Uygulama bu adreste canlıdır:
+
+👉 **https://flynntaggart26.github.io/vocabulary-vault/**
+
+Bu linki telefonunda ve bilgisayarında doğrudan tarayıcıda açabilirsin.
+
+> **Not:** Eğer link henüz çalışmıyorsa, GitHub repository'nin **Settings → Pages** bölümünden **Source: main / (root)** seçip **Save** basman yeterlidir. Birkaç dakika içinde link aktif olacaktır.
 
 ## 📄 Lisans
 
