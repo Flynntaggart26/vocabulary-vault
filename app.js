@@ -10,6 +10,10 @@ let words = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
 const STARTER_WORDS = [
   { word: "haphazard", meaning: "düzensiz, rastgele, plansız", example: "The books were piled in a haphazard manner on the shelf." },
   { word: "pellucid", meaning: "çok açık, saydam, anlaşılır", example: "Her pellucid writing style made the complex topic easy to understand." },
+  { word: "aggravate", meaning: "kötüleştirmek, ağırlaştırmak", example: "Stress can aggravate the symptoms of a cold." },
+  { word: "repudiate", meaning: "reddetmek, kabul etmemek, inkâr etmek", example: "The government repudiated the false accusations against it." },
+  { word: "corroborate", meaning: "doğrulamak, kanıtlarla desteklemek", example: "The witness's statement corroborates the evidence found at the scene." },
+  { word: "ameliorate", meaning: "iyileştirmek, daha iyi hale getirmek, hafifletmek", example: "The new policy aims to ameliorate poverty in the region." },
 ];
 
 // DOM elemanları
@@ -29,11 +33,22 @@ const statExamples = $("stat-examples");
 const btnDark = $("btn-dark-toggle");
 const themeIcon = document.querySelector(".theme-icon");
 
-// Başlangıç kelimelerini ekle (eğer liste boşsa)
+// Başlangıç kelimelerini ekle / eksik olanları birleştir
 function init() {
   if (words.length === 0) {
     words = [...STARTER_WORDS];
     save();
+  } else {
+    // Mevcut kullanıcılarda eksik olan başlangıç kelimelerini ekle
+    let added = false;
+    STARTER_WORDS.forEach((sw) => {
+      const exists = words.some((w) => w.word.toLowerCase() === sw.word.toLowerCase());
+      if (!exists) {
+        words.push(sw);
+        added = true;
+      }
+    });
+    if (added) save();
   }
   render();
   updateStats();
