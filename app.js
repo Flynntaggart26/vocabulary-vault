@@ -14,6 +14,18 @@ const STARTER_WORDS = [
   { word: "repudiate", meaning: "reddetmek, kabul etmemek, inkâr etmek", example: "The government repudiated the false accusations against it." },
   { word: "corroborate", meaning: "doğrulamak, kanıtlarla desteklemek", example: "The witness's statement corroborates the evidence found at the scene." },
   { word: "ameliorate", meaning: "iyileştirmek, daha iyi hale getirmek, hafifletmek", example: "The new policy aims to ameliorate poverty in the region." },
+  { word: "scrupulous", meaning: "titiz, özenli, kılı kırk yaran", example: "She was scrupulous about keeping accurate records." },
+  { word: "perfunctory", meaning: "üstünkörü, baştan savma, özensiz", example: "He gave a perfunctory nod and left the room." },
+  { word: "nonchalant", meaning: "kayıtsız, umursamaz, rahat", example: "She was nonchalant about the approaching deadline, as if it didn't matter." },
+  { word: "ostentatious", meaning: "gösterişçi, şatafatlı, abartılı", example: "The ostentatious mansion was full of gold decorations." },
+  { word: "lethargic", meaning: "uyuşuk, miskin, enerjisiz", example: "The hot weather made everyone feel lethargic and sluggish." },
+  { word: "apathetic", meaning: "ilgisiz, kayıtsız, duygusuz", example: "Many voters felt apathetic and didn't bother to vote." },
+  { word: "assiduous", meaning: "gayretli, çalışkan, sebatkâr, titiz", example: "He was an assiduous student who studied every night." },
+  { word: "desultory", meaning: "düzensiz, gelişigüzel, amaçsız, kopuk", example: "They had a desultory conversation without any real focus." },
+  { word: "docile", meaning: "uysal, söz dinleyen, kolay yönetilen", example: "The docile horse allowed the child to ride it easily." },
+  { word: "amenable", meaning: "uyumlu, razı olmaya/uzlaşmaya açık", example: "She was amenable to changing the meeting time." },
+  { word: "tractable", meaning: "kolay işlenen, uysal, söz dinler", example: "The problem was tractable once they broke it into smaller steps." },
+  { word: "recalcitrant", meaning: "dikbaşlı, inatçı, otoriteye direnen", example: "The recalcitrant student refused to follow the rules." },
 ];
 
 // DOM elemanları
